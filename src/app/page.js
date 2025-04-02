@@ -72,6 +72,7 @@ export default function MainMap() {
               <Popup>A popup on the marker!</Popup>
             </Marker>
   */
+  /* THIS LINE IS MADE*/
   return (
     <div className="mainmap-cnt">
       <div className="mainmap-header-wrp">
