@@ -1,0 +1,10 @@
+[lcl-host]
+realm-apid = 'development'
+
+[org]
+apid = 'thesis_shuttlemonitoringwebapplication-884e91'
+
+[service]
+apid = 'shuttle-monitoring-terminal'
+category = 'javascript'
+cert-style = 'acme'

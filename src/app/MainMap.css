@@ -1,0 +1,80 @@
+.mainmap-cnt {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+/** HEADER && FOOTER **/
+.mainmap-header-wrp,
+.mainmap-footer-wrp {
+  display: flex;
+  background-color: #006831;
+}
+
+.mainmap-header-cnt {
+  display: flex;
+  margin: 20px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  #title,
+  #time {
+    color: white;
+  }
+}
+
+/***********************/
+
+.mainmap-header-cnt {
+  display: flex;
+}
+
+.mainmap-body-cnt {
+  flex-direction: column;
+  display: flex;
+  background-color: red;
+  height: 100%;
+}
+
+.mainmap-bodymap-wrp {
+  background-color: blueviolet;
+  height: 55%;
+}
+
+/***********************/
+
+.mainmap-bodyschedule-wrp {
+  background-color: rgb(200, 142, 255);
+  height: 45%;
+}
+
+.schedule-cnt {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.schedule-entries {
+  display: grid;
+}
+
+.schedule-table {
+  height: 100%;
+}
+
+.schedule-header,
+.schedule-footer {
+  height: 10%;
+  background-color: #85a83e;
+}
+
+.schedule-header,
+.schedule-table,
+.schedule-footer {
+  width: 100%;
+}
+
+/**********MAP**********/
